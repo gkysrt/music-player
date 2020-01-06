@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_columnSpan="3"
+    android:paddingTop="0dp"
+    android:layout_margin="0dp">
+
+
+
+    <TextView
+        android:id="@+id/miniplayer_song_title"
+        android:layout_width="20dp"
+        android:layout_height="20dp"
+        android:text="Song Title"
+        android:layout_weight="2"
+        android:textColor="#3f3f3f"
+        android:layout_marginTop="4dp"/>
+
+    <TextView
+        android:id="@+id/miniplayer_artist"
+        android:layout_width="20dp"
+        android:layout_height="20dp"
+        android:text="Artist"
+        android:layout_weight="1"
+        android:textColor="#5f5f5f"
+        android:layout_marginTop="4dp"
+        />
+
+    <Button
+        android:id="@+id/play_and_pause_button"
+        android:layout_height="32dp"
+        android:layout_width="32dp"
+        android:background="@drawable/round_button"
+        android:text=">"
+        android:layout_marginRight="4dp"
+        android:layout_marginLeft="4dp"
+        android:layout_marginTop="4dp"
+        />
+
+</LinearLayout>

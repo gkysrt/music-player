@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Example Project</string>
+    <string name="title_activity_playlist">PlaylistActivity</string>
+    <string name="song">Song</string>
+    <string name="artist">Artist</string>
+    <!--<string name="previous_button_name"> </string>-->
+</resources>
